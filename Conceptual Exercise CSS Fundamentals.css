@@ -1,0 +1,50 @@
+html {
+  font-size: 1vw;
+  font-family: Luciuda Console, Monaco;
+}
+
+body {
+  background-color: paleturquoise;
+  /* background: linear-gradient(to right, blue 60%, purple); */
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(103, 77, 198, 0.7203081916360294) 25%,
+    rgba(0, 212, 255, 1) 83%
+  );
+}
+
+h1 {
+  color: #000000;
+  text-align: center;
+  font-weight: 900;
+  font-size: 20px;
+  font-family: serif;
+}
+
+h2 {
+  color: greenyellow;
+  background-color: powderblue;
+  text-decoration: underline;
+}
+
+li {
+  background-color: blue;
+}
+li:nth-of-type(2n) {
+  background-color: olivedrab;
+  font-size: 20px;
+}
+
+li:nth-of-type(2n):hover {
+  background-color: orange;
+}
+
+a {
+  text-align: right;
+  text-decoration: none;
+}
+
+p {
+  font-weight: bold;
+}
