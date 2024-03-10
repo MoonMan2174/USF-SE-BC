@@ -1,0 +1,46 @@
+html {
+  font-size: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: rgb(202, 201, 224);
+  background: linear-gradient(
+    90deg,
+    rgba(202, 201, 224, 1) 0%,
+    rgba(51, 3, 106, 0.87156869583771) 64%,
+    rgba(0, 212, 255, 1) 92%
+  );
+}
+
+h1 {
+  color: #070ab5;
+  text-align: center;
+  font-weight: 900;
+  font-size: 4vw;
+}
+
+h2 {
+  color: #070ab5;
+  text-decoration: underline;
+}
+
+/* Actions on hover */
+h1:hover {
+  background-color: bisque;
+}
+h2:hover {
+  background-color: bisque;
+}
+section:hover {
+  background-color: bisque;
+}
+
+a {
+  text-align: right;
+  text-decoration: none;
+}
+
+p {
+  font-weight: bold;
+}
