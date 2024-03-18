@@ -1,0 +1,135 @@
+html {
+  font-size: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  /* background: rgb(202, 201, 224); */
+  background: linear-gradient(
+    90deg,
+    rgba(202, 201, 224, 1) 0%,
+    rgba(51, 3, 106, 0.87156869583771) 64%,
+    rgba(0, 212, 255, 1) 92%
+  );
+}
+
+h1,
+h2 {
+  color: white;
+  font-size: 4rem;
+}
+
+h1 {
+  text-align: center;
+  margin: 1rem auto;
+  /* font-weight: 900; */
+  /* width: 75%; */
+}
+
+section {
+  width: 800px;
+}
+
+date {
+  font-style: italic;
+  font-size: 0.8em;
+  text-align: right;
+}
+
+/* class and id modifiers */
+/* desginate dates on CV html */
+/* correct profile pic */
+
+/* #profile_pic {
+  width: 200px;
+} */
+
+.summary {
+  width: 1500px;
+}
+
+section > h2 {
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 2px;
+  padding: 2px;
+}
+
+ul li,
+section th {
+  font-size: 1.2rem;
+}
+
+ul div {
+  font-size: 16px;
+}
+
+/* class actions on hover and focus */
+h1:hover,
+h2:hover,
+tr:hover,
+section div:hover {
+  /* table:hover { */
+  color: rgb(221, 73, 15);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  background-color: rgba(0, 212, 255, 0.5);
+  outline: 1px solid rgb(252, 255, 46);
+}
+
+input:focus::placeholder,
+textarea:focus::placeholder,
+select:focus::placeholder {
+  color: rgb(0, 0, 0);
+  font-size: 1.1em;
+}
+
+/* single element modifiers */
+table,
+tr {
+  border: 2px solid rgb(0, 0, 0);
+  margin: 0;
+}
+
+td {
+  border: 1px solid rgb(0, 0, 0);
+  margin: 0;
+  padding: 1px auto;
+}
+
+a {
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+img {
+  width: 40%;
+  max-width: 300px;
+  border: 1rem solid rgb(255, 255, 255);
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 1rem;
+  width: 50%;
+  min-width: 500px;
+}
+
+button,
+input {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 0.3em;
+  margin: 0.2em 0.3em;
+}
+
+p::first-letter,
+li::first-letter,
+div::first-letter {
+  text-transform: capitalize;
+}
